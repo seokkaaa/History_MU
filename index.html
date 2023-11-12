@@ -3,8 +3,13 @@
 	<head>
 		<title> MU Project - History Team </title>
 		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-		<link rel="stylesheet" href="css/styles.css">
+		<!-- <link rel="stylesheet" href="../static/css/styles.css"> -->
 		<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=PT+Sans&family=Playfair+Display&display=swap" rel="stylesheet">
+		<link rel="stylesheet" href="../static/css/styles.css">
+		<link rel="icon" href="../static/favicon.png">
 	</head>
 	<body>
 		<header class="fixed-top">
@@ -21,78 +26,95 @@
 		<section id="about">
 			<div class="container">
 				<div class="row">
-					<h2 data-aos="fade-right">About Us</h2>
+					<h2 data-aos="fade-right" data-aos-duration="1000">About Us</h2>
 					<div class="col-6">
-						<p data-aos="fade-right"> about us about us about us about us about us about us about us about us about us about us about us about us about us about us about us about us about us about us about us about us about us about us about us about us about us about us about us about us about us about us </p>
+						<p data-aos="fade-right" data-aos-duration="1000"> about us about us about us about us about us about us about us about us about us about us about us about us about us about us about us about us about us about us about us about us about us about us about us about us about us about us about us about us about us about us </p>
 					</div>
+
 					<div class="col-6">
-						<img src="image1.jpg" class="img-fluid" data-aos="fade-left">
+						<img src="../static/image1.jpg" class="img-fluid" data-aos="fade-left" data-aos-duration="1000">
 					</div>
+
+
+
 				</div>
 			</div>
 		</section>
 
+
 		<section id="dashboard">
-				<div class="container">
-					<h2>Dashboard - Data Analysis</h2>
+			<div class="container">
+				<h2 data-aos ="fade-up"  data-aos-duration="1000">Dashboard - Data Analysis</h2>
 
-					<div class="row mt-5">
-						<div class="col-6">
-							<div class="card card1" data-aos="fade-right" data-aos-duration="1000">
-								<div class="card-body">
-									<h3 class="text-center">About Data</h3>
-									<p>This data has been obtained from the Japanese colonial museum in Korea. By collaborating with the museum, we were successful in initiating a survey that would ask visitors of the museum about their overview and thoughts about the museum. The survey is categorized into four questions, where the survey would ask the visitors about their satisfaction scores, nationality, age range and personal opinions.
-									</p>
-									<p>Furthermore in order to express their personal opinions through graphs, personal opinions were evaluated by utilizing the sentiment scores.</p>
-								</div>
-							</div>
-						</div>
-						<div class="col-6">
-							<div class="card card2" data-aos="fade-left" data-aos-duration="1000">
-								<div class="card-body">
-									<h3 class="text-center">Title for card</h3>
-								</div>
+				<div class="row mt-5">
+					<div class="col-6 d-flex align-item-center">
+						<div class="card card1 mx-auto" data-aos="fade-right" data-aos-duration="1000">
+							<div class="card-body">
+								<h3 class="text-center">About Data</h3>
+								<p class="">This data has been obtained from the Japanese colonial museum in Korea. By collaborating with the museum, we were successful in initiating a survey that would ask visitors of the museum about their overview and thoughts about the museum. </p>
+
+								<p class="">The survey is categorized into four questions, where the survey would ask the visitors about their satisfaction scores, nationality, age range and personal opinions. Furthermore in order to express their personal opinions through graphs, personal opinions were evaluated by utilizing the sentiment scores.</p>
 							</div>
 						</div>
 					</div>
 
-
-
-
-
-
-
-					<div class="row mt-5">
-						<div class="col-4">
-							<div class="graph-box">
-							<h4>Title</h4>
-							<canvas id="piechart1" width="200" height="100"></canvas>
-						</div>
-						</div>
-						<div class="col-8">
-							<div class="graph-box">
-							<h4>Title</h4>
-							<canvas id="barchart1" width="200" height="100"></canvas>
-						</div>
-						</div>
-					</div>
-					<div class="row mt-5">
-						<div class="col-6">
-							<div class="graph-box">
-							<h4>Number of Visitors by Age</h4>
-							<p>This data shows how many people of each age group visited the museum.</p>
-							<canvas id="linechart1" width="200" height="100"></canvas>
-						</div>
-						</div>
-						<div class="col-6">
-							<div class="graph-box">
-							<h4>Sentiment Score by Country</h4>
-							<p>This data was obtained by asking a series of questions that determines someone's attitudes or sentiment toward the topic at hand. By using data science, people's responses were converted to a sentiment score. A score close to -1 indicates a negative sentiment, 1 indicates a positive one, and 0 indicates a neutral one.</p>
-							<canvas id="linechart2" width="200" height="100"></canvas>
-						</div>
+					<div class="col-6 d-flex align-item-center">
+						<div class="card card1 mx-auto"  data-aos="fade-left" data-aos-duration="1000">
+							<div class="card-body">
+								<h3 class="text-center">Statistics</h3>
+								<ul>
+									<li class="mt-2"><strong>Total Visitors</strong>: 212</li>
+									<li class="mt-2"><strong>Average Visitors per Day</strong>: 102</li>
+									<li class="mt-2"><strong>Number of Countries</strong>: 12</li>
+									<li class="mt-2"><strong>Average Age of Visitors</strong>: 30</li>
+									<li class="mt-2"><strong>Average Satisfaction Score</strong>: 4.5</li>
+									<li class="mt-2"><strong>Average Sentiment Score</strong>: 0.7</li>
+								</ul>
+							</div>
 						</div>
 					</div>
 				</div>
+
+
+
+				<div class="row mt-5">
+					<div class="col-4" data-aos="fade-right" data-aos-duration="1000">
+						<div class="graph-box mx-auto">
+							<h4>Title</h4>
+							<p>3 sentences</p>
+							<canvas id="piechart1" width="200" height="100"></canvas>
+						</div>
+					</div>
+
+					<div class="col-8" data-aos="fade-left" data-aos-duration="1000">
+						<div class="graph-box mx-auto">
+							<h4>Title</h4>
+							<p>3 sentences</p>
+							<canvas id="barchart1" width="200" height="100"></canvas>
+						</div>
+					</div>
+				</div>
+
+			<div class="row mt-5">
+				<div class="col-6" data-aos="fade-right" data-aos-duration="1000">
+					<div class="graph-box mx-auto">
+						<h4>Number of Visitors by Age</h4>
+						<p>This data shows how many people of each age group visited the museum.</p>
+						<canvas id="linechart1" width="200" height="100"></canvas>
+					</div>
+				</div>
+				<div class="col-6" data-aos="fade-left" data-aos-duration="1000">
+					<div class="graph-box mx-auto">
+						<h4>Sentiment Score by Country</h4>
+						<p>This data was obtained by asking a series of questions that determines someone's attitudes or sentiment toward the topic at hand. By using data science, people's responses were converted to a sentiment score. A score close to -1 indicates a negative sentiment, 1 indicates a positive one, and 0 indicates a neutral one.</p>
+						<canvas id="linechart2" width="200" height="100"></canvas>
+					</div>
+				</div>
+			</div>
+
+
+
+			</div>
 		</section>
 
 
@@ -102,7 +124,7 @@
   			AOS.init();
 		</script>
 
-<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <script>
     	var valueCounts = {
             "Very Satisfied": 10,
@@ -114,7 +136,7 @@
         var ctx = document.getElementById('piechart1').getContext('2d');
 		var piechart1 = new Chart(ctx, {
 		    type: 'pie',
-			data: {
+		    data: {
 		        labels: Object.keys(valueCounts),
 		        datasets: [{
 		            data: Object.values(valueCounts)
@@ -122,18 +144,20 @@
 		    }
 		});
 
-		var data2 = {
-			"Korea": 10,
+		var data2={
+			"Korea": 15,
 			"India": 17,
 			"USA": 13,
 			"China": 10
 		};
 
 		var ctx2 = document.getElementById('barchart1').getContext('2d');
-		var barColors = ["#FF8A8A","#8ABFFF","#7AE88E","#FFCA86"]
+
+
+		var barColors = ["#79CCE4","#FC8C7A","#A6E479","#F7BF5D"]
 		var barchart1 = new Chart(ctx2, {
 		    type: 'bar',
-			data: {
+		    data: {
 		        labels: Object.keys(data2),
 		        datasets: [{
 		            data: Object.values(data2),
@@ -145,43 +169,43 @@
 		    		y:{
 		    			title:{
 		    				display:true,
-		    				text: "Number of Visits"
+		    				text:"Number of Visits"
 		    			}
+		    			
 		    		},
 		    		x:{
 		    			title:{
-		    				display: true,
-		    				text: "Country"
+		    				display:true,
+		    				text:"Country"
 		    			}
 		    		}
 		    	},
 		    	plugins:{
 		    		legend:{
-		    			display: false
+		    			display:false
 		    		}
 		    	}
 		    }
 		});
 
-		var data3={
+		var data3 = {
 			"Under 20": 10,
 			"20-30": 15,
 			"30-40": 30,
 			"40-50": 20,
 			"50 >": 5
-		};
-
+		}
 		var ctx3 = document.getElementById('linechart1').getContext('2d');
-		var barColors = ["#FF8A8A","#8ABFFF","#7AE88E","#FFCA86","#D586FF"]
+		var barColors = ["#79CCE4","#FC8C7A","#A6E479","#F7BF5D","#D674F7"]
+
 		var linechart1 = new Chart(ctx3, {
 		    type: 'bar',
-			data: {
+		    data: {
 		        labels: Object.keys(data3),
 		        datasets: [{
 		            data: Object.values(data3),
-		            backgroundColor: '#FDD4FF',
-		            borderColor: '#F4A6F7',
-		            backgroundColor: barColors
+		            backgroundColor: barColors,
+		            borderColor:'#C47D16'
 		        }]
 		    },
 		    options:{
@@ -189,62 +213,80 @@
 		    		y:{
 		    			title:{
 		    				display:true,
-		    				text: "Number of Visits"
+		    				text:"Number of Visits"
 		    			}
+		    			
 		    		},
 		    		x:{
 		    			title:{
-		    				display: true,
-		    				text: "Age"
+		    				display:true,
+		    				text:"Age"
 		    			}
 		    		}
 		    	},
 		    	plugins:{
 		    		legend:{
-		    			display: false
+		    			display:false
 		    		}
 		    	}
 		    }
 		});
 
-		var data4 ={
-			"Korea": -0.5,
-			"India": 0.1,
-			"USA": 0.3,
-			"Japan": -0.7,
-			"China": 0.4
-		}
+// If the sentiment socre is close to 1 then the sentence is positive.
+// If the sentiment socre is clsoe to -1 then the sentence is negative
+// If the senitment score is close to 0 then the sentiment is netural
 
-		var ctx4 = document.getElementById('linechart2').getContext('2d');
+		// Data4 should contain at least 5 countries, and their sentiment score for the Q1 in our dataset
+		// Q1. How do you feel about knowing the facts about Japanese colonial period
+		var data4={
+			"Korea": -0.5,
+			"Indina": 0.1,
+			"USA": 0.4,
+			"Japan": -0.2,
+			"China":0.3
+		}
+		var ctx4= document.getElementById('linechart2').getContext('2d');
+		var barColors = ["#79CCE4","#FC8C7A","#A6E479","#F7BF5D","#D674F7"]
+
 		var linechart2 = new Chart(ctx4, {
 		    type: 'bar',
-			data: {
+		    data: {
 		        labels: Object.keys(data4),
 		        datasets: [{
 		            data: Object.values(data4),
-		            backgroundColor: '#FDD4FF',
-		            borderColor:'#F4A6F7'
+		            backgroundColor: barColors,
+		            borderColor: "#3162E5"
 		        }]
 		    },
-		 options:{
+		    options:{
 		    	scales:{
 		    		y:{
 		    			title:{
 		    				display:true,
-		    				text: "Sentiment Score"
+		    				text:"Sentiment Score"
 		    			}
+		    			
 		    		},
 		    		x:{
 		    			title:{
-		    				display: true,
-		    				text: "Country"
+		    				display:true,
+		    				text:"Country"
 		    			}
+		    		}
+		    	},
+		    	plugins:{
+		    		legend:{
+		    			display:false
 		    		}
 		    	}
 		    }
 		});
+    </script>
+
+  
+</body>
+</html>
 
 
-	</script>
 	</body>
 </html>
