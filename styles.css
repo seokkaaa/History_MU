@@ -88,3 +88,21 @@ h4{
 .graph-box:hover{
 	scale:1.05;
 }
+
+@media (max-width:800px){
+	.card1{
+		margin-top: 25px;
+	}
+	.graph-box{
+		margin-top: 25px;
+	}
+	#piechart1{
+		width:80% !important;
+		height: auto !important;
+		margin: auto !important;
+	}
+}
+
+.aboutimg{
+	border-radius: 10px;
+}
