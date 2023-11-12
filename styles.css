@@ -1,0 +1,90 @@
+a{
+	text-decoration: none;
+	color: white;
+}
+
+header{
+	background: black;
+	padding: 10px 0;
+}
+
+.navbar ul{
+	margin:0;
+	padding:0;
+	display:flex;
+	list-style:none;
+	align-items:center;
+}
+
+.navbar li{
+	position: relative;
+}
+.navbar a{
+	font-size:15px;
+	font-weight:600;
+	color: white;
+	text-transform: uppercase;
+	display: flex;
+	align-items:center;
+	justify-content: space-between;
+	padding: 10px 0 10px 30px;
+}
+
+section {
+	margin-top:80px;
+	padding:60px 0;
+	overflow:hidden;
+}
+h2{
+	color: #404792;
+}
+h4{
+	color:#404792;
+}
+
+.card1{
+	background-color: white;
+	color: #404792;
+	border: 1px solid purple;
+	border-radius: 50px;
+/* 	transition: 0.3s;*/
+}
+.card1:hover{
+	scale:1.05;
+/* background-color: #FFEBFD;*/
+}
+.card1 p{
+	color: #848484;
+	font-size: 15px;
+	text-align: justify;
+}
+
+.card2{
+	background-color: white;
+	color: #404792;
+	border: 1px solid purple;
+	border-radius: 50px;
+/* 	transition: 0.3s;*/
+}
+.card2:hover{
+	scale:1.05;
+/* background-color: #FFEBFD;*/
+}
+.card2 p{
+	color: #848484;
+	font-size: 18px;
+}
+#linechart1{
+	margin-top:112.5px;
+}
+.graph-box{
+	background-color: #FEF2F9;
+	width:85%;
+	height:450px;
+	border:1px solid darkgray;
+	border-radius:8px;
+	padding:40px;
+}
+.graph-box:hover{
+	scale:1.05;
+}
